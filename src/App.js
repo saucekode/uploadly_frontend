@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <UploadImage/>
-      <UploadLoading/>
-      <UploadComplete/>
+      {/* <UploadLoading/> */}
+      {/* <UploadComplete/> */}
     </div>
   );
 }
