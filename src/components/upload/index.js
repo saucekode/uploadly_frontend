@@ -4,6 +4,7 @@ import '../../App.css'
 import Container from '../UI/container'
 import image from '../../assets/image.png';
 
+
 const UploadImage = () => {
   return (
     <Container width="402px" height="469px">
