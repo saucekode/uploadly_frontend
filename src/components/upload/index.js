@@ -1,8 +1,8 @@
-import Button from '../UI/button'
+import Button from 'components/UI/button'
 import React from 'react'
 import '../../App.css'
-import Container from '../UI/container'
-import image from '../../assets/image.png';
+import Container from 'components/UI/container'
+import image from 'assets/image.png';
 
 
 const UploadImage = () => {

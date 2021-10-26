@@ -1,4 +1,4 @@
-import Container from '../UI/container'
+import Container from 'components/UI/container'
 import React from 'react'
 
 const UploadLoading = () => {

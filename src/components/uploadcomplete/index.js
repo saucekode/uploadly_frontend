@@ -1,9 +1,9 @@
 import Button from '../UI/button'
 import React from 'react'
 import '../../App.css'
-import Container from '../UI/container'
-import complete from '../../assets/complete.png'
-import success from '../../assets/success.jpg'
+import Container from 'components/UI/container'
+import complete from 'assets/complete.png'
+import success from 'assets/success.jpg'
 
 const UploadComplete = () => {
   return (
