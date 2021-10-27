@@ -5,7 +5,7 @@ import Container from 'components/UI/container'
 import image from 'assets/image.png';
 import {useDropzone} from 'react-dropzone';
 import axios from 'axios';
-import Error from 'components/error';
+import Error from 'components/toast';
 
 
 const UploadImage 
@@ -84,7 +84,7 @@ const UploadImage
 
   return (
     <Container width="402px" height="469px">
-      {hasError && <Error text={errorMessage} close={() => hasError(false)}/> }
+      {hasError && <Error bg="#f7542e" isClosing={true} text={errorMessage} close={() => setHasError(false)}/> }
       <h5 className="primary-color font-lg">Upload your image</h5>
       <p className="font-md secondary-color pt-15">File should be Jpeg, Png,...</p>
       <ImageDropzone/>

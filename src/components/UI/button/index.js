@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Button = ({text, children, width}) => {
+const Button = ({text, children, width, action}) => {
 
   const buttonStyle = {
     width: width || '101px',
@@ -16,7 +16,7 @@ const Button = ({text, children, width}) => {
   }
 
   return (
-    <button style={buttonStyle}>
+    <button style={buttonStyle} onClick={action}>
       {text}
       {children}
     </button>

@@ -24,7 +24,7 @@ const Container = (
   }
 
   return (
-    <div style={style}>
+    <div style={style} className="appContainer">
       {children}
     </div>
   )
