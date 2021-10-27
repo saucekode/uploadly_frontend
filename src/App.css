@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .verticalAlign{
@@ -95,6 +96,7 @@
   background: #F6F8FB;
   margin-top: 25px;
   position: relative;
+  transition: .3s;
 }
 
 .dropzone img{
@@ -110,6 +112,27 @@
   left: 0;
   border-radius: 7px;
   opacity: 0;
+  cursor: pointer;
+}
+
+.error_style{
+  position: absolute;
+  top: 55px;
+  background: #f7542e;
+  color: #fff;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  transition: .3s;
+}
+
+.error_style p:last-child{
+  padding-left: 20px;
   cursor: pointer;
 }
 
